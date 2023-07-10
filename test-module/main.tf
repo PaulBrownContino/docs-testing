@@ -18,8 +18,8 @@ variable "idx" {
 output "resource_name" {
   value = join("-", [
     var.prefix,
-    var.var.short_name,
-    var.var.suffix,
+    var.short_name,
+    var.suffix,
     var.idx
   ])
 }
